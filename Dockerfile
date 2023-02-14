@@ -8,4 +8,5 @@ while true; do
 done
 EOF
 RUN echo Salut! CVA?
+RUN echo another test
 ENTRYPOINT /app/run.sh
