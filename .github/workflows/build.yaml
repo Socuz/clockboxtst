@@ -1,7 +1,7 @@
 name: clockboxci
 on:
   merge_group:
-    types: checks_requested
+    types: [checks_requested]
 jobs:
   build-and-push:
     runs-on: ubuntu-latest

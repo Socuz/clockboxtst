@@ -7,5 +7,5 @@ while true; do
   sleep 1
 done
 EOF
-RUN echo Salut!
+RUN echo Salut
 ENTRYPOINT /app/run.sh
