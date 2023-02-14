@@ -1,7 +1,10 @@
 name: clockboxci
 on:
+  pull_request:
+    branches: [main]
   merge_group:
-    types: [checks_requested]
+    branches: [main]
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
